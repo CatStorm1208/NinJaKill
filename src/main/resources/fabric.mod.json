@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "ninjakill",
+    "version": "${version}",
+    "name": "NinjaKill",
+    "description": "",
+    "authors": ["CatOfLanborg"],
+    "contact": {
+        "repo": "https://github.com/"
+    },
+    "license": "MIT",
+    "environment": "server",
+    "entrypoints": {
+        "client": [
+            "de.catstorm.ninjakill.ninjakill.client.NinjaKillClient"
+        ],
+        "main": [
+            "de.catstorm.ninjakill.ninjakill.NinjaKill"
+        ]
+    },
+    "mixins": [
+        "ninjakill.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
