@@ -9,7 +9,7 @@
         "repo": "https://github.com/CatStorm1208/NinJaKill"
     },
     "license": "MIT",
-    "environment": "server",
+    "environment": "*",
     "entrypoints": {
         "client": [
             "de.catstorm.ninjakill.ninjakill.client.NinjaKillClient"
